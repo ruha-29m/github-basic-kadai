@@ -1,26 +1,29 @@
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge> mkdir git_challenge
+PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge> cd 
+PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge> cd C:\Users\moto-\OneDrive\デスクトップ\free
+PS C:\Users\moto-\OneDrive\デスクトップ\free> mkdir git_challenge
 
 
-    ディレクトリ: C:\Users\moto-\OneDrive\デスクトップ\git_challenge
+    ディレクトリ: C:\Users\moto-\OneDrive\デスクトップ\free
 
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
-d-----   2025/04/14 (月)     14:01                git_challenge     
+d-----   2025/04/14 (月)     15:11                git_challenge
 
 
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge> cd "C:\Users\moto-\OneDrive\デスクトップPS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challenge>git init
-Initialized empty Git repository in C:/Users/moto-/OneDrive/デスクトップ/git_challenge/git_challenge/.git/
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challeng> echo "hello,world!" >> "hello_world.txtを追加"
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challenge>git add .
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challeng> git commit -m "hello_world.txtを追加"
-[main (root-commit) 3d47839] hello_world.txtを追加
+PS C:\Users\moto-\OneDrive\デスクトップ\free> cd git_challenge
+PS C:\Users\moto-\OneDrive\デスクトップ\free\git_challenge> git init
+Initialized empty Git repository in C:/Users/moto-/OneDrive/デスクトップ/free/git_challenge/.git/
+PS C:\Users\moto-\OneDrive\デスクトップ\free\git_challenge> echo "hello,world!" >> "hello_world.txt"     
+PS C:\Users\moto-\OneDrive\デスクトップ\free\git_challenge> git add .                     
+PS C:\Users\moto-\OneDrive\デスクトップ\free\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) f9f9389] hello_world.txtを追加
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 "hello_world.txt\343\202\222\350\277\275\345\212\240"
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challenge>git add .
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challeng> git commit -m "日本語訳を追加"
-[main 23539b6] 日本語訳を追加
+ create mode 100644 hello_world.txt
+PS C:\Users\moto-\OneDrive\デスクトップ\free\git_challenge> git add .                     
+PS C:\Users\moto-\OneDrive\デスクトップ\free\git_challenge> git commit -m "日本語訳を追加"
+[main 52c6a3b] 日本語訳を追加
  1 file changed, 0 insertions(+), 0 deletions(-)
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challenge>git log --oneline    
-23539b6 (HEAD -> main) 日本語訳を追加
-3d47839 hello_world.txtを追加
+PS C:\Users\moto-\OneDrive\デスクトップ\free\git_challenge> git log --oneline
+52c6a3b (HEAD -> main) 日本語訳を追加
+f9f9389 hello_world.txtを追加
