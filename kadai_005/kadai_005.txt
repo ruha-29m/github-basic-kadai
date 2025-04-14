@@ -21,6 +21,6 @@ PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challenge>git ad
 PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challeng> git commit -m "日本語訳を追加"
 [main 23539b6] 日本語訳を追加
  1 file changed, 0 insertions(+), 0 deletions(-)
-PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challenge>git log --oneline
+PS C:\Users\moto-\OneDrive\デスクトップ\git_challenge\git_challenge>git log --oneline    
 23539b6 (HEAD -> main) 日本語訳を追加
 3d47839 hello_world.txtを追加
